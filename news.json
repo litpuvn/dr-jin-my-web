@@ -1,0 +1,18 @@
+[
+  {
+    "id": "001",
+    "title": "IEEE Big Data Special Sessions accepted 2 papers",
+    "date": "October 20, 2017",
+    "description": "Congratulations to <b>Long</b> and <b>Yang</b>!",
+    "url": "publications.html",
+    "longerDescription": "<a href=\"papers/Harvey_Rescue_Scheduling.pdf\" target=\"_blank\">Harvey Flooding Rescue in Social Media</a> proposed three rescue scheduling algorithms which are able to provide victims timely help by the volunteers in social media. <a href=\"papers/flu_shot.pdf\" target=\"_blank\">A Natural Language Normalization Approach to Enhance Social Media Text Reasoning</a> are about Keywords-Language Preprocessing, Sentiment Extraction, and Social Media Reasoning."
+  },
+  {
+    "id":"000",
+    "title": "NFS offers grant to our West Texas Water project",
+    "date": "September 20, 2017",
+    "description": "Congratulations to <b>Dr. Jin's</b> group!",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1737634&HistoricalAwards=false",
+    "longerDescription": "The project aims at establishing a community of stakeholders with the objectives of i) identifying the grand challenging problems in water supply chain, ii) sharing experiences of modernizing water infrastructures across counties, and iii) addressing the hurdles preventing effective water resource management in the Midwest region of the United States."
+  }
+]
