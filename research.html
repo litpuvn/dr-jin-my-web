@@ -16,6 +16,15 @@
 		<!-- Custom styles for this template -->
 		<link href="css/data-discovery.css" rel="stylesheet">
 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140015433-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-140015433-1');
+		</script>
 	</head>
 
 	<body>
@@ -54,6 +63,8 @@
 							</a>
 							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 								<a class="dropdown-item" href="west-texas-water.html">West Texas Water</a>
+								<a class="dropdown-item" href="http://myweb.ttu.edu/fjin/projects/nipred-need">Disaster Need Prediction </a>
+
 							</div>
 						</li>
 						<li class="nav-item">
@@ -61,6 +72,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="datasets.html">Datasets</a>
+						</li>
+						<li class="nav-item">
+   							<a class="nav-link" target="_blank" href="https://covid-19ttu.000webhostapp.com/covid.html" style="color: white; font-weight: bold" >Covid'19</a>
 						</li>
 					</ul>
 				</div>
@@ -90,11 +104,12 @@
 					</a>
 				</div>
 				<div class="col-md-10">
-					<h4>Opioid Addition Relapse
+					<h4>Opioid Addition
 					</h4>
 					<p>
-						We focus on self reported problems associated to Opioid addition. Our goal is to model a relapse paradigm
-						and then model a personalized treatment plan.
+						Opioid addiction poses severe threats to public health, causing many deaths and massive social disruption. 
+						It is therefore critical to be able to predict whether or not a recovering opioid addict will relapse. 
+						Our goal is to model Opioid relapse prediction and then design a personalized intervention plan.
 					</p>
 				</div>
 			</div>
@@ -107,11 +122,12 @@
 					</a>
 				</div>
 				<div class="col-md-10">
-					<h4>Water resource management: water auditing and water related public concerns
+					<h4>Water Resource Management: water audit
 					</h4>
-					<p>A prototype that engages water stakeholders who face problems of similar nature but deal with
-						the problem in an ad-hoc and isolated manner. It targets creating an interconnected virtual community
-						that aims to improve water supply resilience.</p>
+					<p>We developed a smart and connected platform for water resource management, which integrates multiple data sources such as water level data, social media data, and water related articles. 
+Furthermore, the tool enables forecasting underground water levels, identifying water concerns, sharing knowledge and expertise among stakeholders, and thus bringing new insights to our understanding and insights of the water 
+supplies and resource management. The prototype engages water stakeholders who face problems of similar nature but deal with the problem in an ad-hoc 
+and isolated manner.</p>
 				</div>
 			</div>
 			<hr/>
@@ -123,10 +139,11 @@
 					</a>
 				</div>
 				<div class="col-md-10">
-					<h4>Disaster Recovery: needs, victims volunteers scheduling
+					<h4>Disaster Recovery: volunteers scheduling
 					</h4>
-					<p>From social media data, we extract people need, victims and volunteers' location. A scheduling model
-						is built to match the needs, and rescue victims optimally. </p>
+					<p> A crucial and time-sensitive task when any disaster occurs is to rescue victims and distribute resources to the right groups and locations. 
+To improve the efficiency of the emergency response in the immediate aftermath of a disaster, we propose a heuristic multi-agent reinforcement learning scheduling algorithm, 
+which can effectively schedule the rapid deployment of volunteers to rescue victims in dynamic settings. </p>
 				</div>
 			</div>
 			<hr/>
